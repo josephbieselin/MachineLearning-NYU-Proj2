@@ -1,0 +1,14 @@
+https://cran.r-project.org/web/packages/glmnet/glmnet.pdf
+glmnet documentation package from cran
+
+https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-ridge-lasso-regression-python/
+Explanation of LASSO, Ridge Regression for Python
+
+http://stats.stackexchange.com/questions/72251/an-example-lasso-regression-using-glmnet-for-binary-outcome
+Help with using LASSO
+
+http://stackoverflow.com/questions/18130338/plotting-an-roc-curve-in-glmnet
+Help with plotting an ROC curve for LASSO regression
+
+http://nbviewer.jupyter.org/gist/nickmachairas/c1d11a7749a127029bc43ca04c829264
+Nick Machairas Jupyter notebook for obtaining the "train.csv" file and data preparation based on Raman Kannan's instruction.

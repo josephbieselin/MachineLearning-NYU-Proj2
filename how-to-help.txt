@@ -1,0 +1,12 @@
+URL for Titanic dataset: https://www.kaggle.com/c/titanic/data
+
+I am looking to apply LASSO Regression to determine whether or not a passenger would survive on the titanic using the "train.csv" file provided in the above URL. This project is focused on learning how to apply a new machine learning algorithm.
+
+R packages needed:
+- glmnet
+- ROCR
+
+data_preparation.R contains the initial steps for loading in the dataset and cleaning the data. It reads in the path to the CSV file "train.csv". This depends on where you placed the dataset's downloaded files. I removed columns based on the work done by Raman Kannan in "Module 12 - Naïve Bayes & Neural Networks" of NYU's machine learning class. The cleaned data removes data fields that are mostly not useful as it relates to this project.
+The cleaned data is placed in 'traindata' at the end of data_preparation.R
+
+analysis.R contains the building of models on this dataset. Comments can be found in-line in the R script, as well various points where the data is plotted to see the results. A cross-validated model was used to create a prediction object to plot the ROC-curve based on test data.
